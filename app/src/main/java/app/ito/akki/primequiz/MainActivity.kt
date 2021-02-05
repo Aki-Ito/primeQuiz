@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         for(i in 0 until QUESTION_COUNT){
             val number = random.nextInt(1000)
             Log.d("Number","Question"+number.toString())
